@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas{
+  border: 2px solid black;
+  margin-top:80px;
+  margin-left: 200px;
+}
+
+.customButton {
+  width:140px;
+  height:50px;
+  background-color: #00c3ffb0;
+  border: none;
+  color: #000;
+  font-weight:bold;
+  padding: 15px 32px;
+  border-radius: 15px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "MyWebFont2";
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+@font-face {
+  font-family: 'MyWebFont2';
+  src: url('americankestralstraightcond1_2.ttf'); /* IE6-IE8 */
+}
